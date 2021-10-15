@@ -1,0 +1,62 @@
+appName : pCTR
+model : xdeepfm
+data : place
+seed : 1024
+local : true
+root_dir : /home1/irteam/juhochoi/
+full_dir : full/
+data_dir : data/place/
+model_dir : models/
+target_dir : '' # data_dir = target_dir, so empty 
+# target_dir : sample/
+record_dir : data/
+features_file : features.json
+metadata_file : metadata.json
+k : 10
+label : 
+  name : clicked
+  len :  1
+  type : int64
+  default_value : 0
+class_weight :
+  0 : 0.05
+  1 : 0.95
+steps : 100
+steps_per_epoch : 100
+# features : [] 
+features : 
+- ad_imp
+- ad_clk
+- ad_ctr
+- ad_coec
+- chnlxad_imp
+- chnlxad_clk
+- chnlxad_ctr
+- chnlxad_coec
+- adxkwd_imp
+- adxkwd_clk
+- adxkwd_ctr
+- adxkwd_coec
+- chnlxadxkwd_imp
+- chnlxadxkwd_clk
+- chnlxadxkwd_ctr
+- chnlxadxkwd_coec
+- keyword_embedding
+- headline_embedding
+- channel_id
+- biz_ctgr_nm
+- biz_cd
+- position_ctr
+- chnlxposition_ctr
+model_params :
+  steps : 100000
+  decay_rate : 0.96
+  batch_size : 128
+  epochs : 1
+  learning_rate : 0.001
+  l2 : 0.0001
+  DNN_units : [400, 400]
+  CIN_units : [200, 200, 200]
+  embedding_dim : 10
+  DNN_activation : 'relu'
+  thresholds : 10

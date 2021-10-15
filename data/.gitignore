@@ -1,0 +1,11 @@
+*.txt
+*.csv
+*.json
+!schema.json
+!features.json
+!metadata.json
+*SUCCESS*
+*.crc
+part-*
+*tfrecord*
+xdeepfm/

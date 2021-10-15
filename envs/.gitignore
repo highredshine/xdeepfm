@@ -1,0 +1,7 @@
+*.zip
+bin*
+include*
+lib*
+share*
+pyvenv.cfg
+local_env/

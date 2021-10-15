@@ -1,0 +1,4 @@
+# mock requirements for docker_env, for local testing.
+# these python packages will be directly installed in docker container
+tensorflow==2.3.0
+pyyaml

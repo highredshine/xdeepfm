@@ -1,0 +1,9 @@
+appName : pCTR
+local : true
+spark_dir : resources/spark/
+root_dir : hdfs://matching/user/irteam/juhochoi/
+spark_home_dir : resources/spark/
+data_dir : data/criteo/
+target_dir : train/
+schema_file : schema.json
+metadata_file : metadata.json

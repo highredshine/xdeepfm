@@ -1,0 +1,77 @@
+appName : pCTR
+model : xdeepfm
+data : criteo
+seed : 1024
+local : true
+root_dir : /Users/user/juhochoi/
+data_dir : data/criteo/
+model_dir : models/
+full_dir : full/
+target_dir : train/ 
+# target_dir : sample/
+record_dir : data/
+features_file : features.json
+metadata_file : metadata.json
+k : 2
+label : 
+  name : "label"
+  len :  1
+  type : "int64"
+  default_value : 0
+class_weight :
+  0 : 0.75
+  1 : 0.25
+steps : 1
+steps_per_epoch : 100
+features : 
+- i1
+- i2
+- i3
+- i4
+- i5
+- i6
+- i7
+- i8
+- i9
+- i10
+- i11
+# - i12
+- i13
+- c1
+- c2
+# - c3
+- c4
+- c5
+- c6
+- c7
+- c8
+- c9
+- c10
+- c11
+# - c12
+- c13
+- c14
+- c14
+- c15
+# - c16
+- c17
+- c18
+- c19
+- c20
+# - c21
+- c22
+- c23
+- c24
+- c25
+- c26
+model_params :
+  steps : 1000
+  decay_rate : 0.5
+  batch_size : 128
+  epochs : 5
+  learning_rate : 0.001
+  l2 : 0.0001
+  DNN_units : [400, 400]
+  CIN_units : [200, 200, 200]
+  embedding_dim : 10
+  DNN_activation : 'relu'

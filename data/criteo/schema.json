@@ -1,0 +1,206 @@
+{
+    "type" : "struct",
+    "fields" : [
+        {
+            "name" : "label",
+            "type" : "integer",
+            "nullable" : true,
+            "metadata" : {}
+        }, {
+            "name" : "i1",
+            "type" : "integer",
+            "nullable" : true,
+            "metadata" : {}
+        }, {
+            "name" : "i2",
+            "type" : "integer",
+            "nullable" : true,
+            "metadata" : {}
+        }, {
+            "name" : "i3",
+            "type" : "integer",
+            "nullable" : true,
+            "metadata" : {}
+        }, {
+            "name" : "i4",
+            "type" : "integer",
+            "nullable" : true,
+            "metadata" : {}
+        }, {
+            "name" : "i5",
+            "type" : "integer",
+            "nullable" : true,
+            "metadata" : {}
+        }, {
+            "name" : "i6",
+            "type" : "integer",
+            "nullable" : true,
+            "metadata" : {}
+        }, {
+            "name" : "i7",
+            "type" : "integer",
+            "nullable" : true,
+            "metadata" : {}
+        }, {
+            "name" : "i8",
+            "type" : "integer",
+            "nullable" : true,
+            "metadata" : {}
+        }, {
+            "name" : "i9",
+            "type" : "integer",
+            "nullable" : true,
+            "metadata" : {}
+        },{
+            "name" : "i10",
+            "type" : "integer",
+            "nullable" : true,
+            "metadata" : {}
+        },{
+            "name" : "i11",
+            "type" : "integer",
+            "nullable" : true,
+            "metadata" : {}
+        }, {
+            "name" : "i12",
+            "type" : "integer",
+            "nullable" : true,
+            "metadata" : {}
+        }, {
+            "name" : "i13",
+            "type" : "integer",
+            "nullable" : true,
+            "metadata" : {}
+        }, {
+            "name" : "c1",
+            "type" : "string",
+            "nullable" : true,
+            "metadata" : {}
+        },  {
+            "name" : "c2",
+            "type" : "string",
+            "nullable" : true,
+            "metadata" : {}
+        },  {
+            "name" : "c3",
+            "type" : "string",
+            "nullable" : true,
+            "metadata" : {}
+        }, {
+            "name" : "c4",
+            "type" : "string",
+            "nullable" : true,
+            "metadata" : {}
+        }, {
+            "name" : "c5",
+            "type" : "string",
+            "nullable" : true,
+            "metadata" : {}
+        },  {
+            "name" : "c6",
+            "type" : "string",
+            "nullable" : true,
+            "metadata" : {}
+        },  {
+            "name" : "c7",
+            "type" : "string",
+            "nullable" : true,
+            "metadata" : {}
+        },  {
+            "name" : "c8",
+            "type" : "string",
+            "nullable" : true,
+            "metadata" : {}
+        }, {
+            "name" : "c9",
+            "type" : "string",
+            "nullable" : true,
+            "metadata" : {}
+        }, {
+            "name" : "c10",
+            "type" : "string",
+            "nullable" : true,
+            "metadata" : {}
+        },  {
+            "name" : "c11",
+            "type" : "string",
+            "nullable" : true,
+            "metadata" : {}
+        }, {
+            "name" : "c12",
+            "type" : "string",
+            "nullable" : true,
+            "metadata" : {}
+        },  {
+            "name" : "c13",
+            "type" : "string",
+            "nullable" : true,
+            "metadata" : {}
+        },  {
+            "name" : "c14",
+            "type" : "string",
+            "nullable" : true,
+            "metadata" : {}
+        },  {
+            "name" : "c15",
+            "type" : "string",
+            "nullable" : true,
+            "metadata" : {}
+        }, {
+            "name" : "c16",
+            "type" : "string",
+            "nullable" : true,
+            "metadata" : {}
+        }, {
+            "name" : "c17",
+            "type" : "string",
+            "nullable" : true,
+            "metadata" : {}
+        }, {
+            "name" : "c18",
+            "type" : "string",
+            "nullable" : true,
+            "metadata" : {}
+        }, {
+            "name" : "c19",
+            "type" : "string",
+            "nullable" : true,
+            "metadata" : {}
+        },  {
+            "name" : "c20",
+            "type" : "string",
+            "nullable" : true,
+            "metadata" : {}
+        }, {
+            "name" : "c21",
+            "type" : "string",
+            "nullable" : true,
+            "metadata" : {}
+        }, {
+            "name" : "c22",
+            "type" : "string",
+            "nullable" : true,
+            "metadata" : {}
+        }, {
+            "name" : "c23",
+            "type" : "string",
+            "nullable" : true,
+            "metadata" : {}
+        }, {
+            "name" : "c24",
+            "type" : "string",
+            "nullable" : true,
+            "metadata" : {}
+        }, {
+            "name" : "c25",
+            "type" : "string",
+            "nullable" : true,
+            "metadata" : {}
+        }, {
+            "name" : "c26",
+            "type" : "string",
+            "nullable" : true,
+            "metadata" : {}
+        }
+    ]
+}

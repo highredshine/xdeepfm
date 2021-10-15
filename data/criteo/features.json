@@ -1,0 +1,205 @@
+{
+    "fields" : [
+        {
+            "name" : "label",
+            "len" :  1,
+            "type" : "int64",
+            "default_value" : 0
+        }, {
+            "name" : "i1",
+            "len" :  1,
+            "type" : "float32",
+            "default_value" : 0.0
+        }, {
+            "name" : "i2",
+            "len" :  1,
+            "type" : "float32",
+            "default_value" : 0.0
+        }, {
+            "name" : "i3",
+            "len" :  1,
+            "type" : "float32",
+            "default_value" : 0.0
+        }, {
+            "name" : "i4",
+            "len" :  1,
+            "type" : "float32",
+            "default_value" : 0.0
+        }, {
+            "name" : "i5",
+            "len" :  1,
+            "type" : "float32",
+            "default_value" : 0.0
+        }, {
+            "name" : "i6",
+            "len" :  1,
+            "type" : "float32",
+            "default_value" : 0.0
+        }, {
+            "name" : "i7",
+            "len" :  1,
+            "type" : "float32",
+            "default_value" : 0.0
+        }, {
+            "name" : "i8",
+            "len" :  1,
+            "type" : "float32",
+            "default_value" : 0.0
+        }, {
+            "name" : "i9",
+            "len" :  1,
+            "type" : "float32",
+            "default_value" : 0.0
+        },{
+            "name" : "i10",
+            "len" :  1,
+            "type" : "float32",
+            "default_value" : 0.0
+        },{
+            "name" : "i11",
+            "len" :  1,
+            "type" : "float32",
+            "default_value" : 0.0
+        }, {
+            "name" : "i12",
+            "len" :  1,
+            "type" : "float32",
+            "default_value" : 0.0
+        }, {
+            "name" : "i13",
+            "len" :  1,
+            "type" : "float32",
+            "default_value" : 0.0
+        }, {
+            "name" : "c1",
+            "len" :  1,
+            "type" : "string",
+            "default_value" : ""
+        },  {
+            "name" : "c2",
+            "len" :  1,
+            "type" : "string",
+            "default_value" : ""
+        },  {
+            "name" : "c3",
+            "len" :  1,
+            "type" : "string",
+            "default_value" : ""
+        }, {
+            "name" : "c4",
+            "len" :  1,
+            "type" : "string",
+            "default_value" : ""
+        }, {
+            "name" : "c5",
+            "len" :  1,
+            "type" : "string",
+            "default_value" : ""
+        },  {
+            "name" : "c6",
+            "len" :  1,
+            "type" : "string",
+            "default_value" : ""
+        },  {
+            "name" : "c7",
+            "len" :  1,
+            "type" : "string",
+            "default_value" : ""
+        },  {
+            "name" : "c8",
+            "len" :  1,
+            "type" : "string",
+            "default_value" : ""
+        }, {
+            "name" : "c9",
+            "len" :  1,
+            "type" : "string",
+            "default_value" : ""
+        }, {
+            "name" : "c10",
+            "len" :  1,
+            "type" : "string",
+            "default_value" : ""
+        },  {
+            "name" : "c11",
+            "len" :  1,
+            "type" : "string",
+            "default_value" : ""
+        }, {
+            "name" : "c12",
+            "len" :  1,
+            "type" : "string",
+            "default_value" : ""
+        },  {
+            "name" : "c13",
+            "len" :  1,
+            "type" : "string",
+            "default_value" : ""
+        },  {
+            "name" : "c14",
+            "len" :  1,
+            "type" : "string",
+            "default_value" : ""
+        },  {
+            "name" : "c15",
+            "len" :  1,
+            "type" : "string",
+            "default_value" : ""
+        }, {
+            "name" : "c16",
+            "len" :  1,
+            "type" : "string",
+            "default_value" : ""
+        }, {
+            "name" : "c17",
+            "len" :  1,
+            "type" : "string",
+            "default_value" : ""
+        }, {
+            "name" : "c18",
+            "len" :  1,
+            "type" : "string",
+            "default_value" : ""
+        }, {
+            "name" : "c19",
+            "len" :  1,
+            "type" : "string",
+            "default_value" : ""
+        },  {
+            "name" : "c20",
+            "len" :  1,
+            "type" : "string",
+            "default_value" : ""
+        }, {
+            "name" : "c21",
+            "len" :  1,
+            "type" : "string",
+            "default_value" : ""
+        }, {
+            "name" : "c22",
+            "len" :  1,
+            "type" : "string",
+            "default_value" : ""
+        }, {
+            "name" : "c23",
+            "len" :  1,
+            "type" : "string",
+            "default_value" : ""
+        }, {
+            "name" : "c24",
+            "len" :  1,
+            "type" : "string",
+            "default_value" : ""
+        }, {
+            "name" : "c25",
+            "len" :  1,
+            "type" : "string",
+            "default_value" : ""
+        }, {
+            "name" : "c26",
+            "len" :  1,
+            "type" : "string",
+            "default_value" : ""
+        }
+    ]
+}

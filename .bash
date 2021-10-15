@@ -1,0 +1,7 @@
+alias pctr-build="docker image rm -f juho-pctr && docker build -t juho-pctr ."
+alias start="docker run --runtime=nvidia -it --rm -v `pwd`:`pwd` -w `pwd` juho-pctr"
+alias run-criteo="CUDA_VISIBLE_DEVICES=0 python src/run.py train config/model_server_criteo.yml"
+alias run-pl="CUDA_VISIBLE_DEVICES=1 python src/run.py train config/model_server_pl.yml"
+alias fill-criteo="python src/submit_tf.py config/tf_server.yml"
+alias docker-pip="python -m pip install pyyaml"
+alias killstop="kill -9 `jobs -ps`"

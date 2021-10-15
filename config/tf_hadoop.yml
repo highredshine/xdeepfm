@@ -1,0 +1,8 @@
+appName : pCTR
+hdfs_dir : hdfs://matching/user/irteam/juhochoi/
+data_dir : data/criteo/
+data_file : sample.txt
+schema_file : schema.json
+metadata_path : metadata.json
+model_name: xdeepfm
+k : 10

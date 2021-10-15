@@ -1,0 +1,43 @@
+appName : pCTR
+model : xdeepfm
+data : place
+seed : 1024
+local : true
+root_dir : /Users/user/juhochoi/
+data_dir : data/place/
+model_dir : models/
+full_dir : full/
+target_dir : sample/ 
+# target_dir :  
+record_dir : data/
+features_file : features.json
+metadata_file : metadata.json
+# k : 10
+k : 2
+steps : 10000
+steps_per_epoch : 100
+label : 
+  name : clicked
+  len :  1
+  type : int64
+  default_value : 0
+class_weight :
+  0 : 0.025
+  1 : 0.975
+# features : [] 
+features : 
+- "ad_imp"
+- "ad_clk"
+- "ad_ctr"
+- "ad_coec" 
+model_params :
+  steps : 100000
+  decay_rate : 0.96
+  batch_size : 128
+  epochs : 5
+  learning_rate : 0.001
+  l2 : 0.0001
+  DNN_units : [400, 400]
+  CIN_units : [200, 200, 200]
+  embedding_dim : 10
+  DNN_activation : 'relu'
